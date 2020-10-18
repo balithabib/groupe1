@@ -7,3 +7,10 @@
 - Ajouter/modifier/supprimer un étudiant directement au niveau du trombinoscope.
 - Création de carte compétences pour chaque étudiant.
 - RGPD Indiquer au niveau du formulaire que les données seront mise en ligne...
+- Creation d'autre format d'organisation des profile (grid, [hexagonal](https://dribbble.com/shots/5828887-Analytics-Team-Page-Design/attachments/1256384), cercle, ...)
+
+![](images/hexagonal.png)
+
+- Ajouter des radar de performance
+
+![](images/emp.png)
