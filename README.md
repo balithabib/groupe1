@@ -1,4 +1,4 @@
-# groupe1
+# Groupe1
 ## Descriptions des nouvelles fonctionnalités sur le trombinoscope
 
 ### 1- 
