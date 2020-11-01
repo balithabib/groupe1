@@ -14,3 +14,5 @@
 - Ajouter des radar de performance
 
 ![](images/emp.png)
+
+[Le lien vers le spreadsheet, qui contient les éléments de vocabulaires de votre projet en référence au Linked Open Data (LOD)](https://docs.google.com/spreadsheets/d/1GTKb_AVEEEfUeoW0lq3erNvL1CUbH_JVn1rgX13scYo/edit?ts=5f9f2916#gid=0)
