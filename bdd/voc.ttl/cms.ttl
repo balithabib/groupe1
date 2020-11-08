@@ -12,37 +12,37 @@
 <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/cms.ttl> a owl:Ontology ;
     dcterms:title "CMS" .
 
-cms:wordpress a rdfs:Property ;
+cms:wordpress a rdf:Property ;
     rdfs:label "wordpress" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:spip a rdfs:Property ;
+cms:spip a rdf:Property ;
     rdfs:label "spip" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:joomla a rdfs:Property ;
+cms:joomla a rdf:Property ;
     rdfs:label "joomla" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:omeka a rdfs:Property ;
+cms:omeka a rdf:Property ;
     rdfs:label "omeka" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:lms a rdfs:Property ;
+cms:lms a rdf:Property ;
     rdfs:label "lms" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:moodel a rdfs:Property ;
+cms:moodel a rdf:Property ;
     rdfs:label "moodel" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:alfresco a rdfs:Property ;
+cms:alfresco a rdf:Property ;
     rdfs:label "alfresco" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
