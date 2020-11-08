@@ -4,62 +4,62 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix Resau: <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/resauxSociaux.ttl> .
+@prefix reseaux: <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/reseaux.ttl> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/resauxSociaux.ttl> a owl:Ontology ;
+<https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/reseaux.ttl> a owl:Ontology ;
     dcterms:title "Réseaux sociaux" .
 
-Resau:facebook a rdf:Property ;
+reseaux:facebook a rdf:Property ;
     rdfs:label "facebook" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:twitter a rdf:Property ;
+reseaux:twitter a rdf:Property ;
     rdfs:label "twitter" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:linkedin a rdf:Property ;
+reseaux:linkedin a rdf:Property ;
     rdfs:label "linkedin" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:instagram a rdf:Property ;
+reseaux:instagram a rdf:Property ;
     rdfs:label "instagram" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-Resau:whatsapp a rdf:Property ;
+reseaux:whatsapp a rdf:Property ;
     rdfs:label "whatsapp" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:pinterest a rdf:Property ;
+reseaux:pinterest a rdf:Property ;
     rdfs:label "pinterest" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:snapchat a rdf:Property ;
+reseaux:snapchat a rdf:Property ;
     rdfs:label "snapchat" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-Resau:discorde a rdf:Property ;
+reseaux:discorde a rdf:Property ;
     rdfs:label "discorde" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:telegram a rdf:Property ;
+reseaux:telegram a rdf:Property ;
     rdfs:label "telegram" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:Skype a rdf:Property ;
+reseaux:Skype a rdf:Property ;
     rdfs:label "Skype" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
