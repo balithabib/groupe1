@@ -12,28 +12,28 @@
 <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/tools.ttl> a owl:Ontology ;
     dcterms:title "Outils " .
 
-outil:photoshop a rdfs:Property ;
+outil:photoshop a rdf:Property ;
     rdfs:label "photoshop" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-outil:illustrator a rdfs:Property ;
+outil:illustrator a rdf:Property ;
     rdfs:label "illustrator" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-outil:gimp a rdfs:Property ;
+outil:gimp a rdf:Property ;
     rdfs:label "gimp" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-outil:inkscape a rdfs:Property ;
+outil:inkscape a rdf:Property ;
     rdfs:label "inkscape" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-outil:dreamweaver a rdfs:Property ;
+outil:dreamweaver a rdf:Property ;
     rdfs:label "dreamweaver" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .

@@ -12,22 +12,22 @@
 <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/connexion.ttl> a owl:Ontology ;
     dcterms:title "Connexion" .
 
-connexion:4g a rdfs:Property ;
+connexion:4g a rdf:Property ;
     rdfs:label "4g" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-connexion:ethernet a rdfs:Property ;
+connexion:ethernet a rdf:Property ;
     rdfs:label "ethernet" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-connexion:satellite a rdfs:Property ;
+connexion:satellite a rdf:Property ;
     rdfs:label "satellite" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-connexion:wifi a rdfs:Property ;
+connexion:wifi a rdf:Property ;
     rdfs:label "wifi" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .

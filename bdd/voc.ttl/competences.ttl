@@ -12,37 +12,37 @@
 <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/competence.ttl> a owl:Ontology ;
     dcterms:title "Compétences Techniques" .
 
-competence:html a rdfs:Property ;
+competence:html a rdf:Property ;
     rdfs:label "html" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:rwd a rdfs:Property ;
+competence:rwd a rdf:Property ;
     rdfs:label "rwd" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:multimedia a rdfs:Property ;
+competence:multimedia a rdf:Property ;
     rdfs:label "multimedia" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:rss a rdfs:Property ;
+competence:rss a rdf:Property ;
     rdfs:label "rss" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:metadata a rdfs:Property ;
+competence:metadata a rdf:Property ;
     rdfs:label "metadata" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:newsletter a rdfs:Property ;
+competence:newsletter a rdf:Property ;
     rdfs:label "newsletter" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:surveys a rdfs:Property ;
+competence:surveys a rdf:Property ;
     rdfs:label "surveys" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .

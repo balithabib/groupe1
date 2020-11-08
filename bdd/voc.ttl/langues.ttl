@@ -12,32 +12,32 @@
 <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/langues.ttl> a owl:Ontology ;
     dcterms:title "Langues Parler" .
 
-Langue:Francais a rdfs:Property ;
+Langue:Francais a rdf:Property ;
     rdfs:label "Francais" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Langue:Arabe a rdfs:Property ;
+Langue:Arabe a rdf:Property ;
     rdfs:label "Arabe" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Langue:Anglais a rdfs:Property ;
+Langue:Anglais a rdf:Property ;
     rdfs:label "Anglais" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Langue:Kabyle a rdfs:Property ;
+Langue:Kabyle a rdf:Property ;
     rdfs:label "Kabyle" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Langue:Ialien a rdfs:Property ;
+Langue:Ialien a rdf:Property ;
     rdfs:label "Ialien" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Langue:Espagnole a rdfs:Property ;
+Langue:Espagnole a rdf:Property ;
     rdfs:label "Espagnole" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .

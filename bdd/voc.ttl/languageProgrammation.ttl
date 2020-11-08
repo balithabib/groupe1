@@ -12,33 +12,33 @@
 <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/languageProg.ttl> a owl:Ontology ;
     dcterms:title "Languages de programmation" .
 
-LanguageProg:javascript a rdfs:Property ;
+LanguageProg:javascript a rdf:Property ;
     rdfs:label "javascript" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-LanguageProg:html a rdfs:Property ;
+LanguageProg:html a rdf:Property ;
     rdfs:label "html" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-LanguageProg:css a rdfs:Property ;
+LanguageProg:css a rdf:Property ;
     rdfs:label "css" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-LanguageProg:c a rdfs:Property ;
+LanguageProg:c a rdf:Property ;
     rdfs:label "c" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-LanguageProg:cpp a rdfs:Property ;
+LanguageProg:cpp a rdf:Property ;
     rdfs:label "cpp" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-LanguageProg:csharp a rdfs:Property ;
+LanguageProg:csharp a rdf:Property ;
     rdfs:label "csharp" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .

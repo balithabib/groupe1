@@ -12,28 +12,28 @@
 <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/resauxSociaux.ttl> a owl:Ontology ;
     dcterms:title "Réseaux sociaux" .
 
-Resau:facebook a rdfs:Property ;
+Resau:facebook a rdf:Property ;
     rdfs:label "facebook" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:twitter a rdfs:Property ;
+Resau:twitter a rdf:Property ;
     rdfs:label "twitter" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:linkedin a rdfs:Property ;
+Resau:linkedin a rdf:Property ;
     rdfs:label "linkedin" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:instagram a rdfs:Property ;
+Resau:instagram a rdf:Property ;
     rdfs:label "instagram" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-Resau:whatsapp a rdfs:Property ;
+Resau:whatsapp a rdf:Property ;
     rdfs:label "whatsapp" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
