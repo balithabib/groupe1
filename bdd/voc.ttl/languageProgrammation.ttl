@@ -1,0 +1,134 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix LanguageProg: <https://jardindesconnaissances.univ-paris8.fr/onto/LanguageProg#> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix schema: <http://schema.org/>.
+
+<https://jardindesconnaissances.univ-paris8.fr/onto/LanguageProg> a owl:Ontology ;
+    dcterms:title "Languages de programmation" .
+
+LanguageProg:javascript a rdfs:Class ;
+    rdfs:label "javascript" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:html a rdfs:Class ;
+    rdfs:label "html" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:css a rdfs:Class ;
+    rdfs:label "css" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:c a rdfs:Class ;
+    rdfs:label "c" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:cpp a rdfs:Class ;
+    rdfs:label "cpp" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+LanguageProg:csharp a rdfs:Class ;
+    rdfs:label "csharp" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:python a rdf:Property ;
+    rdfs:label "python" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:java a rdf:Property ;
+    rdfs:label "java" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:sql a rdf:Property ;
+    rdfs:label "sql" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:lisp a rdf:Property ;
+    rdfs:label "lisp" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:smaltack a rdf:Property ;
+    rdfs:label "smaltack" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:php a rdf:Property ;
+    rdfs:label "php" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:vb a rdf:Property ;
+    rdfs:label "vb" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:scratch a rdf:Property ;
+    rdfs:label "scratch" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:latex a rdf:Property ;
+    rdfs:label "latex" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:libre a rdf:Property ;
+    rdfs:label "EC Libre" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:markdown a rdf:Property ;
+    rdfs:label "markdown" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:scala a rdf:Property ;
+    rdfs:label "scala" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:csv a rdf:Property ;
+    rdfs:label "csv" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:xml a rdf:Property ;
+    rdfs:label "xml" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:json a rdf:Property ;
+    rdfs:label "json" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:rdf a rdf:Property ;
+    rdfs:label "rdf" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:owl a rdf:Property ;
+    rdfs:label "owl" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+LanguageProg:ml a rdf:Property ;
+    rdfs:label "ml" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .

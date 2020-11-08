@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix Resau: <https://jardindesconnaissances.univ-paris8.fr/onto/Resau#> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix schema: <http://schema.org/>.
+
+<https://jardindesconnaissances.univ-paris8.fr/onto/Resau> a owl:Ontology ;
+    dcterms:title "Réseaux sociaux" .
+
+Resau:facebook a rdfs:Class ;
+    rdfs:label "facebook" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Resau:twitter a rdfs:Class ;
+    rdfs:label "twitter" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Resau:linkedin a rdfs:Class ;
+    rdfs:label "linkedin" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Resau:instagram a rdfs:Class ;
+    rdfs:label "instagram" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+Resau:whatsapp a rdfs:Class ;
+    rdfs:label "whatsapp" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Resau:pinterest a rdf:Property ;
+    rdfs:label "pinterest" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Resau:snapchat a rdf:Property ;
+    rdfs:label "snapchat" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+Resau:discorde a rdf:Property ;
+    rdfs:label "discorde" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Resau:telegram a rdf:Property ;
+    rdfs:label "telegram" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Resau:Skype a rdf:Property ;
+    rdfs:label "Skype" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+

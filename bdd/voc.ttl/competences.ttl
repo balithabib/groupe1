@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix competence: <https://jardindesconnaissances.univ-paris8.fr/onto/competence#> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix schema: <http://schema.org/>.
+
+<https://jardindesconnaissances.univ-paris8.fr/onto/competence> a owl:Ontology ;
+    dcterms:title "Compétences Techniques" .
+
+competence:html a rdfs:Class ;
+    rdfs:label "html" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+competence:rwd a rdfs:Class ;
+    rdfs:label "rwd" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+competence:multimedia a rdfs:Class ;
+    rdfs:label "multimedia" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+competence:rss a rdfs:Class ;
+    rdfs:label "rss" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+competence:metadata a rdfs:Class ;
+    rdfs:label "metadata" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+competence:newsletter a rdfs:Class ;
+    rdfs:label "newsletter" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+competence:surveys a rdfs:Class ;
+    rdfs:label "surveys" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+competence:siteEcommerce a rdf:Property ;
+    rdfs:label "site ecommerce" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+competence:agile a rdf:Property ;
+    rdfs:label "Agile" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+competence:design a rdf:Property ;
+    rdfs:label "design ux" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
