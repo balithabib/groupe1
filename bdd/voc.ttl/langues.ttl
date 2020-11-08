@@ -27,7 +27,7 @@ langues:Anglais a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Langues:Kabyle a rdf:Property ;
+langues:Kabyle a rdf:Property ;
     rdfs:label "Kabyle" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
