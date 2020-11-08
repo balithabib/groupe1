@@ -4,40 +4,40 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix Langue: <https://jardindesconnaissances.univ-paris8.fr/onto/Langue#> .
+@prefix Langue: <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/langues.ttl> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/Langue> a owl:Ontology ;
+<https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/langues.ttl> a owl:Ontology ;
     dcterms:title "Langues Parler" .
 
-Langue:Francais a rdfs:Class ;
+Langue:Francais a rdfs:Property ;
     rdfs:label "Francais" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Langue:Arabe a rdfs:Class ;
+Langue:Arabe a rdfs:Property ;
     rdfs:label "Arabe" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Langue:Anglais a rdfs:Class ;
+Langue:Anglais a rdfs:Property ;
     rdfs:label "Anglais" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Langue:Kabyle a rdfs:Class ;
+Langue:Kabyle a rdfs:Property ;
     rdfs:label "Kabyle" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Langue:Ialien a rdfs:Class ;
+Langue:Ialien a rdfs:Property ;
     rdfs:label "Ialien" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Langue:Espagnole a rdfs:Class ;
+Langue:Espagnole a rdfs:Property ;
     rdfs:label "Espagnole" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .

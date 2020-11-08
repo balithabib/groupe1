@@ -4,30 +4,30 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix connexion: <https://jardindesconnaissances.univ-paris8.fr/onto/connexion#> .
+@prefix connexion: <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/connexion.ttl> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/connexion> a owl:Ontology ;
+<https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/connexion.ttl> a owl:Ontology ;
     dcterms:title "Connexion" .
 
-connexion:4g a rdfs:Class ;
+connexion:4g a rdfs:Property ;
     rdfs:label "4g" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-connexion:ethernet a rdfs:Class ;
+connexion:ethernet a rdfs:Property ;
     rdfs:label "ethernet" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-connexion:satellite a rdfs:Class ;
+connexion:satellite a rdfs:Property ;
     rdfs:label "satellite" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-connexion:wifi a rdfs:Class ;
+connexion:wifi a rdfs:Property ;
     rdfs:label "wifi" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .

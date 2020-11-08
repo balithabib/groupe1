@@ -4,36 +4,36 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix Resau: <https://jardindesconnaissances.univ-paris8.fr/onto/Resau#> .
+@prefix Resau: <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/resauxSociaux.ttl> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/Resau> a owl:Ontology ;
+<https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/resauxSociaux.ttl> a owl:Ontology ;
     dcterms:title "Réseaux sociaux" .
 
-Resau:facebook a rdfs:Class ;
+Resau:facebook a rdfs:Property ;
     rdfs:label "facebook" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:twitter a rdfs:Class ;
+Resau:twitter a rdfs:Property ;
     rdfs:label "twitter" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:linkedin a rdfs:Class ;
+Resau:linkedin a rdfs:Property ;
     rdfs:label "linkedin" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Resau:instagram a rdfs:Class ;
+Resau:instagram a rdfs:Property ;
     rdfs:label "instagram" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-Resau:whatsapp a rdfs:Class ;
+Resau:whatsapp a rdfs:Property ;
     rdfs:label "whatsapp" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .

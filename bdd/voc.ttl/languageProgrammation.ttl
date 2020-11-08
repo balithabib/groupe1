@@ -4,41 +4,41 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix LanguageProg: <https://jardindesconnaissances.univ-paris8.fr/onto/LanguageProg#> .
+@prefix LanguageProg: <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/languageProg.ttl> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/LanguageProg> a owl:Ontology ;
+<https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/languageProg.ttl> a owl:Ontology ;
     dcterms:title "Languages de programmation" .
 
-LanguageProg:javascript a rdfs:Class ;
+LanguageProg:javascript a rdfs:Property ;
     rdfs:label "javascript" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-LanguageProg:html a rdfs:Class ;
+LanguageProg:html a rdfs:Property ;
     rdfs:label "html" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-LanguageProg:css a rdfs:Class ;
+LanguageProg:css a rdfs:Property ;
     rdfs:label "css" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-LanguageProg:c a rdfs:Class ;
+LanguageProg:c a rdfs:Property ;
     rdfs:label "c" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-LanguageProg:cpp a rdfs:Class ;
+LanguageProg:cpp a rdfs:Property ;
     rdfs:label "cpp" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-LanguageProg:csharp a rdfs:Class ;
+LanguageProg:csharp a rdfs:Property ;
     rdfs:label "csharp" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .

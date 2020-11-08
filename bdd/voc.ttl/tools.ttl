@@ -4,36 +4,36 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix outil: <https://jardindesconnaissances.univ-paris8.fr/onto/outil#> .
+@prefix outil: <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/tools.ttl> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/outil> a owl:Ontology ;
+<https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/tools.ttl> a owl:Ontology ;
     dcterms:title "Outils " .
 
-outil:photoshop a rdfs:Class ;
+outil:photoshop a rdfs:Property ;
     rdfs:label "photoshop" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-outil:illustrator a rdfs:Class ;
+outil:illustrator a rdfs:Property ;
     rdfs:label "illustrator" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-outil:gimp a rdfs:Class ;
+outil:gimp a rdfs:Property ;
     rdfs:label "gimp" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-outil:inkscape a rdfs:Class ;
+outil:inkscape a rdfs:Property ;
     rdfs:label "inkscape" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-outil:dreamweaver a rdfs:Class ;
+outil:dreamweaver a rdfs:Property ;
     rdfs:label "dreamweaver" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
@@ -103,7 +103,7 @@ outil:talent a rdf:Property ;
     rdfs:label "talent" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-        
+
 outil:balsamique a rdf:Property ;
     rdfs:label "balsamique" ;
     rdfs:domain o:Resource ;

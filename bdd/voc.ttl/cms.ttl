@@ -4,45 +4,45 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix cms: <https://jardindesconnaissances.univ-paris8.fr/onto/cms#> .
+@prefix cms: <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/cms.ttl> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/cms> a owl:Ontology ;
+<https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/cms.ttl> a owl:Ontology ;
     dcterms:title "CMS" .
 
-cms:wordpress a rdfs:Class ;
+cms:wordpress a rdfs:Property ;
     rdfs:label "wordpress" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:spip a rdfs:Class ;
+cms:spip a rdfs:Property ;
     rdfs:label "spip" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:joomla a rdfs:Class ;
+cms:joomla a rdfs:Property ;
     rdfs:label "joomla" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:omeka a rdfs:Class ;
+cms:omeka a rdfs:Property ;
     rdfs:label "omeka" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:lms a rdfs:Class ;
+cms:lms a rdfs:Property ;
     rdfs:label "lms" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:moodel a rdfs:Class ;
+cms:moodel a rdfs:Property ;
     rdfs:label "moodel" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cms:alfresco a rdfs:Class ;
+cms:alfresco a rdfs:Property ;
     rdfs:label "alfresco" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .

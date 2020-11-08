@@ -4,45 +4,45 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix competence: <https://jardindesconnaissances.univ-paris8.fr/onto/competence#> .
+@prefix competence: <https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/competence.ttl> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/competence> a owl:Ontology ;
+<https://github.com/balithabib/groupe1/blob/main/bdd/voc.ttl/competence.ttl> a owl:Ontology ;
     dcterms:title "Compétences Techniques" .
 
-competence:html a rdfs:Class ;
+competence:html a rdfs:Property ;
     rdfs:label "html" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:rwd a rdfs:Class ;
+competence:rwd a rdfs:Property ;
     rdfs:label "rwd" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:multimedia a rdfs:Class ;
+competence:multimedia a rdfs:Property ;
     rdfs:label "multimedia" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:rss a rdfs:Class ;
+competence:rss a rdfs:Property ;
     rdfs:label "rss" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:metadata a rdfs:Class ;
+competence:metadata a rdfs:Property ;
     rdfs:label "metadata" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:newsletter a rdfs:Class ;
+competence:newsletter a rdfs:Property ;
     rdfs:label "newsletter" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-competence:surveys a rdfs:Class ;
+competence:surveys a rdfs:Property ;
     rdfs:label "surveys" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
