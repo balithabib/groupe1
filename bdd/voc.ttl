@@ -1,0 +1,125 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix student: <https://duraspace.org/wp-content/uploads/2020/02/vivo.owl#Student> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix schema: <http://schema.org/>.
+
+<https://duraspace.org/wp-content/uploads/2020/02/vivo.owl#Student> a owl:Ontology ;
+    dcterms:title "Student" .
+
+student:Student a rdfs:Class ;
+    rdfs:label "etudiant" ;
+    owl:sameAs foaf:Person ;
+    vs:term_status "experimental" .
+
+student:formation a rdfs:Class ;
+    rdfs:label "formation" ;
+    owl:sameAs foaf:Person ;
+    vs:term_status "experimental" .
+
+student:cours a rdfs:Class ;
+    rdfs:label "cours" ;
+    owl:sameAs foaf:Person ;
+    vs:term_status "experimental" .
+
+student:diplome a rdfs:Class ;
+    rdfs:label "diplome" ;
+    owl:sameAs foaf:Person ;
+    vs:term_status "experimental" .
+
+student:socialNetwork a rdfs:Class ;
+    rdfs:label "socialNetwork" ;
+    owl:sameAs foaf:Person ;
+    vs:term_status "experimental" .
+
+student:email a rdf:Property ;
+    rdfs:label "email" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:student_number a rdf:Property ;
+    rdfs:label "Numéro étudiant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+student:student_number a rdf:Property ;
+    rdfs:label "Numéro étudiant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:intitule a rdf:Property ;
+    rdfs:label "intitule" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:annee a rdf:Property ;
+    rdfs:label "annee" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:nomcours a rdf:Property ;
+    rdfs:label "nom cours" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:professeur a rdf:Property ;
+    rdfs:label "professeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:periode a rdf:Property ;
+    rdfs:label "periode" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:nomformation a rdf:Property ;
+    rdfs:label "nom formation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:departement a rdf:Property ;
+    rdfs:label "departement" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:facebook a rdf:Property ;
+    rdfs:label "facebook" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:instagram a rdf:Property ;
+    rdfs:label "instagram" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:linkedin a rdf:Property ;
+    rdfs:label "linkedin" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:whatsapp a rdf:Property ;
+    rdfs:label "whatsapp" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:youtube a rdf:Property ;
+    rdfs:label "youtube" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+student:website a rdf:Property ;
+    rdfs:label "web site" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
+
+
+
