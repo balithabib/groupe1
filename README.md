@@ -25,10 +25,10 @@ Dans notre cas nous allons nous interessé aux étudiants qui suivent une format
 - Mention
 
 ## Représentation d'un cours:
--Label
--Professeur 
--Date début 
--Date fin
+- Label
+- Professeur 
+- Date début 
+- Date fin
 
 ## Réseau sociaux 
 - Facebook
