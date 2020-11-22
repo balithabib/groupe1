@@ -13,12 +13,12 @@
 
 <body>
   <h2>Affichage des collection</h2>
-  <h6>Collection : Liste des etudiant </h6>
-  <div id='dataStudents'></div>
+  <h4>Collection : Liste des etudiant </h4>
+  <div id='dataStudent'></div>
 
   <h2>Affichage d'un item de la collection</h2>
-  <h6> Item : etudiant 1 </h6>
-  <div id='dataStudent'></div>
+  <h4> Item : etudiant 1 </h4>
+  <div id='dataStudents'></div>
 
 </body>
 
@@ -50,9 +50,24 @@
 
     let tbody = document.getElementById('dataStudents')
 
-    tbody.innerHTML = tbody.innerHTML + `<tr>
-      <td>${dataJson[0]["foaf:family_name"][0]["@value"] + " " + dataJson[0]["foaf:firstName"][0]["@value"]}</td>
-      </tr>`
+    tbody.innerHTML = tbody.innerHTML + `<table>
+    <tr>
+      <td>${"Nom : " + dataJson[0]["foaf:family_name"][0]["@value"]}</td>
+    </tr>
+    <tr>
+      <td>${"Prénom : " + dataJson[0]["foaf:firstName"][0]["@value"]}</td>
+    </tr>
+    <tr>
+      <td>${"Age : " + dataJson[0]["foaf:age"][0]["@value"]}</td>
+      
+    </tr>
+    <tr>
+      <td>${"Email : " + dataJson[0]["vocabulaire:voc.ttlemail"][0]["@value"]}</td>
+    </tr>
+      <tr>
+      <td>${"numéro étuduant : " + dataJson[0]["vocabulaire:voc.ttlstudent_number"][0]["@value"]}</td>
+      </tr>
+    </table>`
 
   }
   read()
