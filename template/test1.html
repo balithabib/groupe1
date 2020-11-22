@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>M2 THYP </title>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+
+  <style>
+  </style>
+
+<body>
+  <h2>Affichage des collection</h2>
+  <h6>Collection : Liste des etudiant </h6>
+  <div id='dataStudents'></div>
+
+  <h2>Affichage d'un item de la collection</h2>
+  <h6> Item : etudiant 1 </h6>
+  <div id='dataStudent'></div>
+
+</body>
+
+<script>
+
+  let urlDataStudents = "http://localhost/omeka-s/api/items?item_set_id=77";
+
+  let urldataStudent = "http://localhost/omeka-s/api/items/64";
+
+  d3.json(urldataStudent).then(function (data) {
+    d3.select('#dataStudents').data(data).enter().append('div')
+      .html(d => {
+        let v = d["foaf:family_name"][0]["@value"] + " " + d["foaf:firstName"][0]["@value"]
+        return v;
+
+      })
+      .on("click", function (d) {
+        showStudent(d);
+      });
+  });
+
+
+  async function read() {
+
+    let data = await fetch("http://localhost/omeka-s/api/items?item_set_id=77")
+
+    let dataJson = await data.json()
+
+
+    let tbody = document.getElementById('dataStudents')
+
+    tbody.innerHTML = tbody.innerHTML + `<tr>
+      <td>${dataJson[0]["foaf:family_name"][0]["@value"] + " " + dataJson[0]["foaf:firstName"][0]["@value"]}</td>
+      </tr>`
+
+  }
+  read()
+
+
+
+  d3.json(urlDataStudents).then(function (data) {
+    d3.select('#dataStudent').selectAll('div').data(data).enter().append('div')
+      .html(d => {
+        let v = d["foaf:family_name"][0]["@value"] + " " + d["foaf:firstName"][0]["@value"]
+        return v;
+      })
+      .on("click", function (d) {
+        showStudent(d);
+      });
+
+  });
+
+
+  function showStudent(d) {
+    console.log(d);
+  }
+</script>
+
+</html>
