@@ -3,4 +3,8 @@ liste de tout les items,/api/items
 un item spécifique,/api/items/id
 Liste de tout le vocabulaire,/api/vocabularies
 Un vocab spécifique,/api/vocabularies/id
-Une Collection,/api/items?item_set_id=id
+Une Collection,/api/items?item_set_id/id
+collection des etudiant;/api/item_sets/77 
+collection des diplome;/api/item_sets/81 
+collection des formations;/api/item_sets/80 
+collection des cours;/api/item_sets/79 
