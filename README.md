@@ -1,5 +1,6 @@
 # Groupe1
 Lien du projet : https://balithabib.github.io/groupe1/
+Lien du Template : https://balithabib.github.io/groupe1/template/
 ## Contexte du Projet :
 Un trombinoscope est une liste des photographies d'un groupe, c'est un outil qui sert principalement à faire connaitre les membres d'une organisation.
 Dans notre cas nous allons nous interessé aux étudiants qui suivent une formation données.
