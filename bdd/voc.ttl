@@ -118,6 +118,32 @@ student:website a rdf:Property ;
     vs:term_status "experimental" .
 
 
+student:diplomer a rdf:Property ;
+    rdfs:label "est diplomer de" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:suit a rdf:Property ;
+    rdfs:label "suit " ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:appartient a rdf:Property ;
+    rdfs:label "appartient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:possede a rdf:Property ;
+    rdfs:label "possede" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+student:admis a rdf:Property ;
+    rdfs:label "admis" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
 
 
 
