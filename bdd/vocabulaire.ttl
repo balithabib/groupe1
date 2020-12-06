@@ -6,8 +6,8 @@
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 @prefix student: <https://duraspace.org/wp-content/uploads/2020/02/vivo.owl#Student> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix schema: <http://schema.org/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
 
 <https://duraspace.org/wp-content/uploads/2020/02/vivo.owl#Student> a owl:Ontology ;
     dcterms:title "Student" .
