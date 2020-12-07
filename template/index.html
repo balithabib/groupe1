@@ -542,14 +542,12 @@
             url = d["2020/02/vivo.owl#Student:Studentpresent"][0]["@id"];
             d3.json(url, (error, results) => {
                 if (error) throw error;
-                let reseaux = d3.select('#reseaux_sociaux')
-                    .append('div');
-                reseaux.select('fb').attr("xlink:href", results["vocabulaire:voc.ttlfacebook"][0]["@value"]);
-                reseaux.select('insta').attr("xlink:href", results["vocabulaire:voc.ttlinstagram"][0]["@value"]);
-                reseaux.select('ld').attr("xlink:href", results["vocabulaire:voc.ttllinkedin"][0]["@value"]);
-                reseaux.select('youtube').attr("xlink:href", results["vocabulaire:voc.ttlyoutube"][0]["@value"]);
-                reseaux.select('wp').attr("xlink:href", results["vocabulaire:voc.ttlwebsite"][0]["@value"]);
-                reseaux.select('github').attr("xlink:href", results["vocabulaire:voc.ttlwhatsapp"][0]["@value"]);
+                d3.select('#fb').attr("href", results["vocabulaire:voc.ttlfacebook"][0]["@value"]);
+                d3.select('#insta').attr("href", results["vocabulaire:voc.ttlinstagram"][0]["@value"]);
+                d3.select('#ld').attr("href", results["vocabulaire:voc.ttllinkedin"][0]["@value"]);
+                d3.select('#youtube').attr("href", results["vocabulaire:voc.ttlyoutube"][0]["@value"]);
+                d3.select('#wp').attr("href", results["vocabulaire:voc.ttlwebsite"][0]["@value"]);
+                d3.select('#github').attr("href", results["vocabulaire:voc.ttlwhatsapp"][0]["@value"]);
             });
 
             d3.select('#cours').text(d["2020/02/vivo.owl#Student:Studentsuivre"][0]["display_title"]);
